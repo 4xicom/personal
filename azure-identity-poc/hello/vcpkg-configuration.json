@@ -1,0 +1,20 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "baseline": "5312e9f976e89b256954f571433e34f783dd2d12",
+    "repository": "https://github.com/microsoft/vcpkg"
+  },
+  "registries": [
+    {
+      "kind": "artifact",
+      "location": "https://github.com/microsoft/vcpkg-ce-catalog/archive/refs/heads/main.zip",
+      "name": "microsoft"
+    },
+    {
+      "kind": "git",
+      "repository": "https://github.com/Azure/azure-sdk-vcpkg-betas.git",
+      "baseline": "b4722e2ea0609f8221aca47c0d9665195deba40a",
+      "packages": [ "azure-identity-cpp", "azure-core-cpp" ]
+    }
+  ]
+}
