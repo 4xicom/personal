@@ -1,0 +1,20 @@
+{
+  "name": "entraidkafka",
+  "version": "1.0.0",
+  "description": "C++ lib for librdkafka using Microsoft EntraID tokens.",
+  "license": "MIT",
+  "dependencies": [
+    "azure-identity-cpp",
+    "azure-core-cpp",
+    "librdkafka",
+    "openssl",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
