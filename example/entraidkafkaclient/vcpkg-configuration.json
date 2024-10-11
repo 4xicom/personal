@@ -12,9 +12,9 @@
     },
     {
       "kind": "git",
-      "repository": "https://msasg.visualstudio.com/DefaultCollection/Multi%20Tenancy/_git/MTStreaming",
-      "reference": "user/zhangb/cpp",
-      "baseline": "42b1aaa4bda7317232a95a9b63ff1c8e58d80bb8",
+      "repository": "https://github.com/4xicom/personal",
+      "reference": "master",
+      "baseline": "233cf60099be169e02a5433b90dd792e371f3fbb",
       "packages": [
         "entraidkafka"
       ]
