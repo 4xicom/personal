@@ -1,0 +1,14 @@
+{
+  "dependencies": [
+    "azure-identity-cpp",
+    "azure-core-cpp",
+
+    {
+      "name": "librdkafka",
+      "features": [ "ssl" ]
+    },
+    "entraidkafka",
+    "openssl"
+  ]
+}
+ 
