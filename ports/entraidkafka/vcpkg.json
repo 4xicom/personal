@@ -1,6 +1,6 @@
 {
   "name": "entraidkafka",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "C++ lib for librdkafka using Microsoft EntraID tokens.",
   "license": "MIT",
   "dependencies": [

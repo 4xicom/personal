@@ -3,14 +3,14 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO 4xicom/personal
-    REF 4bbb4bcdb358339ffa0dcc2119292b329d8a7cb4
-    SHA512 b6013e795d266890e63e09b18a85d3a8aa09de443f96bc9a9ffee792f53a86dae39553e12d4e2165c790be9f5202c895a61c3b92297e22ee84f095bd1c2e0160
+    REF 15efe822069c82757fd5bbe82440a8acd8be1886
+    SHA512 8fdae4b4ed5be37bc6bc208f73d74446edbe873524076a51694780503ee2e91a35321a8ebc36220d310db225f39aa500123bacb0eb8e7f71342717739425f51a
     HEAD_REF master
 )
 
 
 vcpkg_cmake_configure(
-    SOURCE_PATH "${SOURCE_PATH}/public/cpp/entraidkafka"
+    SOURCE_PATH "${SOURCE_PATH}/entraidkafka"
 )
 
 vcpkg_cmake_install()
