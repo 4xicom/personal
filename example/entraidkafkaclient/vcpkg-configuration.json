@@ -14,7 +14,7 @@
       "kind": "git",
       "repository": "https://github.com/4xicom/personal",
       "reference": "master",
-      "baseline": "4bbb4bcdb358339ffa0dcc2119292b329d8a7cb4",
+      "baseline": "5dd4382ae09b202513b105d18100c7a9fb44bafe",
       "packages": [
         "entraidkafka"
       ]
