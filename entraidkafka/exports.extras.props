@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- From partner side, we will set PacmanExports_OSSDependencies_Library_Imported and PacmanExports_Import_Specific_Library as true. This will ensure only required OSS library is imported instead of all OSS libraries. -->
+  <Import Project="$(PACKAGESROOT)\OSSDependencies.Library\exports_azurekafka.props" Condition="'$(PacmanExports_OSSDependencies_Library_Imported)' == 'true' and '$(PacmanExports_OSSDependencies_Library_azurekafka_Imported)' != 'true' and '$(PacmanExports_Import_Specific_Library)' == 'true' " />
+</Project>

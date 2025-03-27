@@ -1,0 +1,27 @@
+<Package name="EntraIdKafka.Library" version="1.0" namespace="shared" schemaVersion="1.0">
+  <Description>
+    Native lib share by BingMagnetar, entraidkafka is the lib which can be used to get entraid token and connect to kafka.
+  </Description>
+  <Permissions>
+    <Owners>
+      <User Identity="redmond\zhangb" />
+    </Owners>
+    <Contributors>
+      <User Identity="redmond\zhangb" />
+    </Contributors>
+  </Permissions>
+  <Public>
+    <IncludeFolders>
+      <IncludeFolder path="inc" />
+    </IncludeFolders>
+    <Binaries>
+      <Binary name="EntraIdKafka.lib" arch="amd64" availability="PASS1" />
+    </Binaries>
+    <MiscFiles>
+        <MiscFile path="exports.extras.props" />
+    </MiscFiles>
+  </Public>
+  <Dependencies>
+    <Dependency name="OSSDependencies.Library" version="[2,3)" consumedExport="azurekafka"/>
+  </Dependencies>
+</Package>

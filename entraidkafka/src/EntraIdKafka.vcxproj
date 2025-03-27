@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(EnvironmentConfig)" />
+  <PropertyGroup>
+    <GeneratedFromTemplate>BingVcxprojTemplate</GeneratedFromTemplate>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ProjectGuid>{54B45A65-DA5E-478F-5D65-E770D734B05D}</ProjectGuid>
+    <AssemblyName>EntraIdKafka</AssemblyName>
+  </PropertyGroup>
+  <Import Project="$(ExtendedTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(ExtendedTargetsPath)\Microsoft.Cpp.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>..\inc</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="entraidwindowscert.cpp" />
+    <ClCompile Include="entraidkafka.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\entraidwindowscert.h" />
+    <ClInclude Include="..\inc\entraidkafka.h" />
+  </ItemGroup>
+  <Import Project="$(PACKAGESROOT)\OSSDependencies.Library\exports_azurekafka.props" Condition="'$(PacmanExports_OSSDependencies_Library_azurekafka_Imported)'!='true' " />
+  <Import Project="$(ExtendedTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

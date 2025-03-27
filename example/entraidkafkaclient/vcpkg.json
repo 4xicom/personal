@@ -5,7 +5,7 @@
 
     {
       "name": "librdkafka",
-      "features": [ "ssl" ]
+      "features": [ "ssl", "zlib" ]
     },
     "entraidkafka",
     "openssl"
